@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  php:
+    container_name: php81
+    build: ./docker/php/
+    volumes:
+      - ./:/var/www/app
